@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img src="img/Vector.svg" alt="">
+        <img id="eu" src="img/EU2.png" alt="">
+    </header>
+    <section>
+        <div class="text">
+            <textarea name="" id="area" cols="62" rows="15" placeholder="Digite seu texto"></textarea>
+            <div class="info">
+                <img src="img/icone.svg" alt="Apenas letras minúsculas e sem acento.">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botao">
+                <button id="cripto" onclick="Criptografar()">CRIPTOGRAFAR</button>
+                <button id="desc" onclick="Descriptografar()">DESCRIPTOGRAFAR</button>
+            </div>
+        </div>
+        
+        <div class="container" id="format">
+            <div id="localtexto">
+
+            </div>
+            <img class="bloco" src="img/High quality products 1 1.svg" alt="">
+            <h1 class="bloco">Nenhuma mensagem encontrada</h1>
+            <p class="bloco">Digite um texto que você deseja criptografar ou descriptografar</p>
+            <div class="botaoCopia">
+                <button id="copiar" onclick="Copia()">COPIAR</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h4>Desafio Alura</h4>
+        <h4>Criado por Ana Beatriz Prado Neco</h4>
+    </footer>
+
+    <script src="app.js"></script>
+
+    
+</body>
+</html>

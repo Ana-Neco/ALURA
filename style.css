@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif,Helvetica;
+}
+
+body
+{
+    background-color: #e4f0fd;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 82px ;
+}
+
+header #eu
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text #area
+{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.text #area::placeholder
+{
+    color: #0A3871;
+}
+
+#cripto
+{
+    width: 328px;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 20px;
+    background-color: #0A3871;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#cripto:hover
+{
+    
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.25em 0.25em #7a89db;
+      
+}
+
+#cripto:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+}
+
+#desc
+{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    width: 328px;
+    padding: 20px;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 24px;
+    font-weight: bold;
+}
+
+#desc:hover
+{
+    
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.25em 0.25em #7a89db;
+      
+}
+
+#desc:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+}
+
+.botao
+{
+    display: flex;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+.container #copiar
+{
+    background-color: white;
+    border: 1px solid #0A3871;
+    position: relative;
+    padding: 20px;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    width: 310px;
+    display: none;
+    font-weight: bold;
+   
+}
+
+.container #localtexto
+{
+    max-width: 320px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    height: 500px;
+    display: none;
+}
+
+.container #copiar:hover
+{
+    background-color: #0A3871;
+    color: white;
+}
+
+.container 
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 370px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    box-shadow: 3px 3px rgb(219, 219, 219);
+    
+}
+
+.info 
+{
+    display: flex;
+    margin-top: 30px;
+}
+.info p
+{
+    margin-left: 10px;
+}
+
+.container img
+{
+    width: 310px;
+    height: 304px;
+
+}
+
+.container p
+{
+    color: rgb(110, 110, 110);
+    margin-top: 15px;
+}
+
+footer
+{
+    background-color: #0A3871;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70px;
+    color: white;
+    margin-top: 100px;
+    width: 100%;
+}
